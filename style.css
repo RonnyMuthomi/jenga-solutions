@@ -1,182 +1,1290 @@
-#title-bar{
-    background-color: black;
-    color: #fff;
+header{
+    background-color: rgb(78, 75, 75);
     display: flex;
-    font-family: monospace;
     height: 8vh;
     width: 100%;
-    padding: 5px;
-    justify-content: space-between;
+    text-align: right;
+    
+    
+    
 
 }
-#title-bar #logo{
+header img{
+    float: left;
+    padding-left: 1em;
+    
+}
+header h1{
+    float: left;
+    margin-top: 5px;
     color: #fff;
-    text-decoration: none;
-    display: inline;
-    font-size: large;
-    font-family: Verdana, sans-serif;
-    margin-left: 0px;
-    padding: 20px;
+    font-size: small;
 }
-#title-bar ul{
-    list-style: none;
-    padding: 0px;
-}
-#title-bar ul li{
-    text-decoration: none;
-    display: inline;
+    
+   
+header{
+    background-color: rgb(59, 58, 58);
     color: #fff;
-    justify-content: space-between;
-}
-#title-bar ul li a{
-    color: #fff;
-    padding: 7px;
-    display: inline;
-    text-decoration: none;
-    font-size: large;
-    margin-right: 5px;
-
-}
-#navbar{
-    background-color: rgb(90, 88, 88);
-    color: whitesmoke;
     display: flex;
-    text-decoration: none;
-    padding: 3px;
-    justify-content: space-between;
     height: 8vh;
     width: 100%;
-    overflow: hidden;
 }
-#navbar #left-items{
-    color: #fff;
-    display: inline;
-    text-decoration: none;
-    padding: 20px;
-    margin-right: 0px;
-    max-height: 0%;
-    
+header img{
+    height: 8vh;
 }
-#navbar #left-items ul{
-    list-style: none;
-    padding: 0px;
-}
-#navbar #left-items ul li{
-    text-decoration: none;
-    color: #fff;
-    display: inline;
-}
-#navbar #left-items ul li a{
-    color: #fff;
-    display: inline;
-    text-decoration: none;
-    padding: 20x;
-    margin-left: 40px;
-    
-    
-    
-}
-#navbar #right-items{
-    color: #fff;
-    padding: 5px;
-    justify-content: space-between;
-    display: inline;
-
-}
-#navbar #right-items ul{
-    list-style: none;
-    padding: 0px;
-}
-#navbar #right-items ul li{
-    display: inline;
-    text-decoration: none;
-    color: #fff;
-    padding: 5px;
-    margin-right: 0px;
-
-}
-#navbar #right-items ul li a{
-    color: #fff;
-    display: inline;
-    text-decoration: none;
-    padding: 5px;
-}
-#container{
-    background-color: papayawhip;
-    color: black;
-    justify-content: space-between;
-    display: block;
-    padding: 0px;
-    margin: 0;
-
-}
-
-.container #first-elements{
-    background-color: papayawhip;
-    color: black;
-    display: block;
-    height: 80vh;
-    width: 250px;
+header h1{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    
-} 
-.container #first-elements ul{
+    padding: 3px;
+}
+#first-elements{
+    display: inline;
+    color: #fff;
+    flex-direction: row;
+}
+#first-elements ul{
     list-style: none;
-    padding: 0px;
+    padding: 0;
 }
-.container #first-elements ul li{
-    color: black;
+#first-elements ul li{
+    padding: 0;
+    display: inline;
+
+}
+#first-elements ul li a{
+    display: inline;
     text-decoration: none;
-    display: block;
-
-}
-.container #first-elements ul li a{
-    
-    color: black;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    margin-left: 20px;
-    padding: 15px;
-
-}
-.container #second-elements{
-background-color: papayawhip; 
-color:black;
-display: block;
-position: absolute;
-top: 140px;
-right: 0;
-height: 50vh;
-width: 250px;
-font-size: large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin: 0;
-padding: 0;
-
-}
-.container #second-elements ul{
-    list-style: none;
-    padding: 0px;
-}
-.container #second-elements ul li{
-    color: black;
-    text-decoration: none;
-    display: block;
-  
-}
-
-.container #second-elements ul li a{
-    color: black;
-    display: block;
     text-align: right;
-    text-decoration: none;
-    margin-right: 20px;
-    padding: 15px;
+    color: #fff;
+    flex-direction: row;
+    margin-left: 60px;
+    position: relative;
+    padding: 0;
+    float: left;
+    
+}
+nav{
+    display: flex;
+    background-color: rgb(123, 119, 119);
+    height: 8vh;
+    width: 100%;
 
+}
+main{
+    background-color: #fff;
+    display: block;
+    height: 500vh;
+    width: 100%;
+    margin-top: 8px;
+    position: relative;
+}
+main article{
+    display: block;
+    background-color:orange;
+    height: 500vh;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+}
+#left-items{
+    background-color: whitesmoke;
+    color: #fff;
+    display: block;
+    height: 55vh;
+    width: 150px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 40px;
+    border-style: ridge;
+    
+
+
+}
+#left-items ul{
+    padding: 0;
+    list-style: none;
+}
+#left-items ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-left: 5px;
+    padding-left: 15px;
+    padding: 3px;
+    font-size: small;
+    
+
+}
+#right-items{
+    background-color: whitesmoke;
+    color: #fff;
+    display: block;
+    height: 30vh;
+    width: 150px;
+    position: absolute;
+    margin-top: 8px;
+    margin-right: 40px;
+    border-style: groove;
+    margin-left: 650px;
+    
+
+}
+#right-items ul{
+    list-style: none;
+    padding: 0;
+}
+#right-items ul li{
+    text-decoration: none;
+    padding: 0;
+}
+#right-items ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding: 3px;
+    font-size: small;
+    margin: 3px;
+}
+.container{
+    background-color: whitesmoke;
+    display: block;
+    height: 19vh;
+    width: 150px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 160px;
+    border-style: groove;
     
     
     
 }
+.container img{
+    width: 150px;
+    height: 19vh;
+}
+#container2{
+    background-color:red;
+    position: absolute;
+    height: 56vh;
+    width: 420px;
+    margin-left: 203px;
+    margin-top: 8px;
+    padding-right: 20px;
+}
+#container2 img{
+    height: 56vh;
+    width: 440px;
+    position: absolute;
+
+}
+#galaxy1{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 40px;
+}
+#galaxy1 #container3{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy1 #container4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy1 #container5{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy1 #container6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy1 #container7{
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy1 #container8{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+#container3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: outset;  
+}
+#container4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    
+}
+#container5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container7 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container8 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#galaxy2{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 420px;
+
+}
+#galaxy2 #container9{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy2 #container10{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy2 #container11{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy2 #container12{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy2 #container13{
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy2 #container14{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+#container9 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: outset;  
+}
+#container10 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    
+}
+#container11 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container12 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container13 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#container14 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+/*stylish the galaxy3 container img element 
+here */
+
+#galaxy3{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 575px;
+    margin-left: 40px;
+}
+#galaxy3 .box1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy3 .box2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy3 .box3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy3 .box4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy3 .box5{
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy3 .box6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+/*stylish box 1-6 img here*/
+.box1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: outset;  
+}
+.box2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    
+}
+.box3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+
+#galaxy4{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 740px;
+    margin-left: 40px;
+}
+/*stylish the galaxy4 container img element 
+here */
+#galaxy4 .box7{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy4 .box8{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy4 .box9{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy4 .box10{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy4 .box11{
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy4 .box12{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+/*stylish box img here*/
+.box7 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: outset;  
+}
+.box8 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    
+}
+.box9 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box10 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box11 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.box12 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#galaxy5{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 910px;
+    margin-left: 40px;
+}
+
+#galaxy5 .knight1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy5 .knight2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy5 .knight3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy5 .knight4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy5 .knight5{
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy5 .knight6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+/*stylish knight img here */
+.knight1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.knight2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.knight3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.knight4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.knight5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.knight6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+
+#galaxy6{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 1075px;
+    margin-left: 40px;
+}
+
+#galaxy6 .rock1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy6 .rock2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy6 .rock3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy6 .rock4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy6 .rock5{
+
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy6 .rock6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+.rock1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.rock2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.rock3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.rock4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.rock5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.rock6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+
+#galaxy7{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 1240px;
+    margin-left: 40px;
+}
+
+#galaxy7 .bishop1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy7 .bishop2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy7 .bishop3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy7 .bishop4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy7 .bishop5{
+    
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy7 .bishop6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+.bishop1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.bishop2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.bishop3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.bishop4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.bishop5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.bishop6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+
+#galaxy8{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 1405px;
+    margin-left: 40px;
+}
+/*stylish the galaxy8 container img element 
+here */
+#galaxy8 .pawn1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy8 .pawn2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy8 .pawn3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy8 .pawn4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy8 .pawn5{
+    
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy8 .pawn6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+.pawn1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.pawn2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.pawn3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+/*.bishop4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}*/
+.pawn5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.pawn6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#galaxy9{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 1570px;
+    margin-left: 40px;
+}
+/*stylish the galaxy9 container img element 
+here */
+#galaxy9 .king1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy9 .king2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy9 .king3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy9 .king4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy9 .king5{
+    
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy9 .king6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+.king1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.king2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.king3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.king4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.king5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.king6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+#galaxy10{
+    background-color: #fff;
+    height: 35vh;
+    display: flex;
+    width: 92%;
+    position: absolute;
+    margin-top: 1735px;
+    margin-left: 40px;
+}
+/*stylish the galaxy10 container img element 
+here */
+#galaxy10 .queen1{
+    display: block;
+    background-color: orange;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+#galaxy10 .queen2{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+#galaxy10 .queen3{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#galaxy10 .queen4{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50%;
+
+}
+#galaxy10 .queen5{
+    
+    background-color:orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 65%;
+    
+}
+#galaxy10 .queen6{
+    background-color: orange;
+    display: block;
+    height: 115px;
+    width: 95px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 80%;
+    
+}
+.queen1 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.queen2 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.queen3 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.queen4 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.queen5 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+.queen6 img{
+    background-color: orange;
+    position: absolute;
+    height: 115px;
+    width: 95px;
+    border-style: ridge;
+}
+
+
+
