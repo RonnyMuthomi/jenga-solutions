@@ -32,13 +32,9 @@ header h1{
 }
 
 header #dropdown{
-    display:block ;
+    display:flex ;
     background-color: red;
-    position: relative;
-    top: 9px;
-    bottom: -20px;
-    
-    
+
 }
 #dropdown a{
     text-decoration: none;
@@ -47,6 +43,8 @@ header #dropdown{
     margin-left:500px ;
     position: relative;
 }
+
+/*
 a .dropdown-content{
     display: block;
     margin-top: 3px;
@@ -54,14 +52,14 @@ a .dropdown-content{
     position: absolute;
     padding-left: 5px;
     top: 100%;
-    
 }
+*/
+
 form{
-    display: block;
+    display: flexbox;
+    flex-direction: row;
     font-family: monospace;
     font-size: small;
-    position: relative;
-    left: 52px;
     
 }
 form ul{
@@ -70,19 +68,15 @@ form ul{
 }
 form ul li{
     margin: 0;
-    display: block;
-    color: red;
+    color: rgb(255, 255, 255);
 }
 form ul li label{
     margin: 0;
     padding: 2px;
-    display: block;
     text-decoration: none;
 }
 
-#dropdown:hover .dropdown-content {
-    display: block;
-  }
+
 nav{
     display: flex;
     background-color: rgb(123, 119, 119);
