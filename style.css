@@ -1,6 +1,6 @@
 header{
     background-color: rgb(78, 75, 75);
-    display: flex;
+    display: flexbox;
     height: 8vh;
     width: 100%;
     text-align: right;
@@ -15,7 +15,7 @@ header img{
 }
 header h1{
     float: left;
-    margin-top: 5px;
+    justify-items: center;
     color: #fff;
     font-size: small;
 }
@@ -32,8 +32,10 @@ header h1{
 }
 
 header #dropdown{
-    display:flex ;
-    background-color: red;
+    float: right;
+    width: fit-content;
+    display:flexbox ;
+    background-color: rgb(60, 155, 100);
 
 }
 #dropdown a{
