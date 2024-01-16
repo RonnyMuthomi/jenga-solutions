@@ -5,10 +5,9 @@ header{
     width: 100%;
     text-align: right;
     
-    
-    
-
 }
+/*sign up container*/
+
 header img{
     float: left;
     padding-left: 1em;
@@ -22,13 +21,7 @@ header h1{
 }
     
    
-header{
-    background-color: rgb(59, 58, 58);
-    color: #fff;
-    display: flex;
-    height: 8vh;
-    width: 100%;
-}
+
 header img{
     height: 8vh;
 }
@@ -37,32 +30,59 @@ header h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 3px;
 }
-#first-elements{
+
+header #dropdown{
+    display:block ;
+    background-color: red;
+    position: relative;
+    top: 9px;
+    bottom: -20px;
+    
+    
+}
+#dropdown a{
+    text-decoration: none;
     display: inline;
     color: #fff;
-    flex-direction: row;
+    margin-left:500px ;
+    position: relative;
 }
-#first-elements ul{
+a .dropdown-content{
+    display: block;
+    margin-top: 3px;
+    padding: 2px;
+    position: absolute;
+    padding-left: 5px;
+    top: 100%;
+    
+}
+form{
+    display: block;
+    font-family: monospace;
+    font-size: small;
+    position: relative;
+    left: 52px;
+    
+}
+form ul{
     list-style: none;
     padding: 0;
 }
-#first-elements ul li{
-    padding: 0;
-    display: inline;
-
+form ul li{
+    margin: 0;
+    display: block;
+    color: red;
 }
-#first-elements ul li a{
-    display: inline;
+form ul li label{
+    margin: 0;
+    padding: 2px;
+    display: block;
     text-decoration: none;
-    text-align: right;
-    color: #fff;
-    flex-direction: row;
-    margin-left: 60px;
-    position: relative;
-    padding: 0;
-    float: left;
-    
 }
+
+#dropdown:hover .dropdown-content {
+    display: block;
+  }
 nav{
     display: flex;
     background-color: rgb(123, 119, 119);
@@ -70,21 +90,87 @@ nav{
     width: 100%;
 
 }
+nav #first-items{
+    display: inline;
+    margin: 0;
+}
+#first-items ul{
+    list-style: none;
+    padding: none;
+}
+#first-items ul li{
+    color: #fff;
+    text-decoration: none;
+}
+#first-items ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+}
+nav #one{
+    display: inline;
+}
+#one ul{
+    list-style: none;
+    padding: 0;
+}
+#one ul li{
+    display: inline;
+    text-align: right;
+
+}
+#one ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 600px;
+}
+nav #box{
+    display: flex;
+    background-color: red;
+    height: 40vh;
+    width: 80px;
+    position: relative;
+    top: 15px;
+    
+    
+    
+    
+    }
+nav #two{
+    display: inline;
+}
+#two ul{
+    list-style: none;
+    padding: 0;
+}
+#two ul li{
+    display: inline;
+    text-align: right;
+
+}
+#two ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+ 
 main{
     background-color: #fff;
     display: block;
-    height: 500vh;
+    height: 450vh;
     width: 100%;
-    margin-top: 8px;
+    margin-top: 50px;
     position: relative;
+    z-index: 2;
 }
 main article{
     display: block;
     background-color:orange;
-    height: 500vh;
+    height: 450vh;
     width: 95%;
     margin-left: 10px;
-    margin-top: 8px;
+    margin-top: 50px;
     position: absolute;
 }
 #left-items{
@@ -96,7 +182,7 @@ main article{
     position: absolute;
     margin-top: 8px;
     margin-left: 40px;
-    border-style: ridge;
+    
     
 
 
@@ -125,7 +211,6 @@ main article{
     position: absolute;
     margin-top: 8px;
     margin-right: 40px;
-    border-style: groove;
     margin-left: 650px;
     
 
@@ -251,6 +336,7 @@ main article{
     width: 95px;
     border-style: outset;  
 }
+
 #container4 img{
     background-color: orange;
     position: absolute;
@@ -1284,6 +1370,16 @@ here */
     height: 115px;
     width: 95px;
     border-style: ridge;
+}
+/*footer*/
+footer{
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    height: 70vh;
+    width: 120%;
+    position: relative;
+    margin-top: 8.8px;
+    
 }
 
 
